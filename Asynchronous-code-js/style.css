@@ -1,0 +1,45 @@
+body {
+    background-color: #1E5C3A;
+}
+
+#card-btn {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: x-large;
+    background-color: antiquewhite;
+}
+
+#shuffle-div {
+    text-align: center;
+}
+
+#shuffle-btn {
+    width: 35rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: x-large;
+    color: antiquewhite;
+    background-color: #FF3131;
+    z-index: 99;
+    position: relative;
+    transform: translateY(250%);
+}
+
+#btn-div {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#card-div {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+#card-div > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+

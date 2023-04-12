@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Facts</title>
+</head>
+<body>
+    <div id="fav-num-div">
+        <label for="fav-num">Favorite Number: <input type="text" id="fav-num"></label>
+    </div>
+
+    <div id="multi-num-div" style="display:none;">
+        <p>Favorite Numbers:</p>
+        <ol id="additional-nums-ol">
+            <li class="multi-num-li" id="multi-num-li-1">
+                <input type="text" class="multi-num-input" id="multi-num-input-1">
+                <button id="sub-num">-</button>
+                <button id="add-num">+</button>
+            </li>
+        </ol>
+    </div>
+
+    <div>
+        <button id="enter-multi-nums">Multiple Numbers</button>
+        <button id="submit-btn">Get a Fact</button>
+        <button id="multi-fact-submit-btn">Get Multiple Facts</button>
+
+        <button id="enter-single-num" style="display:none;">Single Number</button>
+        <button id="multi-submit-btn" style="display:none;">Get Facts</button>
+    </div>
+
+    <div id="res-div"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" 
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="num-facts.js"></script>
+</body>
+</html>
